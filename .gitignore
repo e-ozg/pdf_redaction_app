@@ -1,9 +1,9 @@
-@"
 build/
 dist/
 *.spec
 *.pdf
 *.txt
+!requirements.txt
+!README.md
 __pycache__/
 .vscode/
-"@ | Out-File -Encoding utf8 .gitignore
