@@ -1,0 +1,9 @@
+@"
+build/
+dist/
+*.spec
+*.pdf
+*.txt
+__pycache__/
+.vscode/
+"@ | Out-File -Encoding utf8 .gitignore
